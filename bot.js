@@ -4,14 +4,14 @@ var fs = require("fs");
 
 //BY @HAIDER_PR
 
-const token = ''; // التوكن 
+const token = '5565876067:AAHqXk2WC6ux-7V3fse9VO53Fe5x2ZmqRUU'; // التوكن 
 const bot = new TelegramBot(token, {polling: true}); 
 
 bot.on('message', (msg) => {
 	
 	        //Methods
-const Userdev = "t.me/haider_pr"; //يوزر حسابك
-const sudo =  431226062;//ايدي المطور
+const Userdev = "t.me/lX_E_Xl"; //يوزر حسابك
+const sudo =  5381472119;//ايدي المطور
 const chatid = msg.chat.id; 
 const id = msg.from.id;
 const user = msg.from.username;
